@@ -1,0 +1,9 @@
+colorama==0.4.1
+coloredlogs==10.0
+eyeD3==0.8.10
+flatten-dict==0.0.3.post1
+humanfriendly==4.18
+pathlib2==2.3.3
+python-magic==0.4.15
+six==1.12.0
+termcolor==1.1.0

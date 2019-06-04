@@ -1,0 +1,65 @@
+{
+    "paths": {
+        "renamed": {
+            "videos": "D:/#/MAO/projects/finished/<title>/videos/<tracknum> - <artist> - <track_title>.mp4",
+            "audios": "D:/#/MAO/projects/finished/<title>/renders/<tracknum> - <artist> - <track_title>.mp3",
+            "covers": "D:/#/MAO/projects/finished/<title>/cover-arts/<title> <format> cover art.png",
+            "covers-lowres": "D:/#/MAO/projects/finished/<title>/cover-arts/<title> <format> cover art.jpg",
+            "project-files": "D:/#/MAO/projects/finished/<title>/project-files/<filename>",
+            "descriptions": "D:/#/MAO/projects/finished/<title>/descriptions/<lang>.txt"
+        },
+        "files": {
+            "videos": "D:/#/MAO/projects/pending/videos/<tracknum>--<title>.mp4",
+            "audios": "D:/#/MAO/projects/pending/renders/next-album/<tracknum>--<title>.mp3",
+            "covers": "D:/#/MAO/projects/pending/cover-arts/<title>/project-files/<title> cover art-assets/<format>.png",
+            "covers-lowres": "D:/#/MAO/projects/pending/cover-arts/<title>/<title>-assets/<format>-lowres.jpg",
+            "project-files": "D:/#/MAO/projects/pending/project-files/next-album/<filename>",
+            "descriptions": "D:/#/MAO/projects/pending/descriptions/<title>--<lang>.txt"
+        },
+        "misc": {
+            "track_data_file": "D:/#/Coding/projects/publishr/latest.json"
+        },
+        "ftp": {
+            "videos": "/static/music/video/<collection>/<title:slug>.mp4",
+            "audios": "/static/music/audio/<collection>/<title:slug>.mp3",
+            "covers": "/static/music/images/<collection>/<format>.<extension>"
+        }
+    },
+    "titles": {
+        "track": "<title>",
+        "single": "<title>",
+        "remix": "<artist> - <track> (<<defaults/artist>> Remix)",
+        "ep": "<artist> - <title> EP",
+        "album": "<artist> - <title>",
+        "videos": "<artitst> - <track> (Music Video)"
+    },
+    "defaults": {
+        "artist": "Mx3",
+        "covers-description": "Cover art by Mx3: https://mx3creations.com/"
+    },
+    "options": {
+        "automatic": {
+            "recover": false,
+            "open-dirs": true,
+            "create-dirs": true
+        },
+        "show-help": false,
+        "contract-rename-map": true,
+        "confirm": {
+            "track-title": false,
+            "track-number": false,
+            "rename-tracks": true,
+            "apply-metadata": true
+        }
+    },
+    "description-languages": [
+        "fr",
+        "en"
+    ],
+    "various-artists": {
+        "threshold": "3",
+        "separator": ", ",
+        "default-name": "Various Artists",
+        "ask": true
+    }
+}
